@@ -1,0 +1,64 @@
+<article>
+    <form onsubmit="Submit(event)">
+        <br>
+        <label for="usingname">Nume Utilizator:</label><br>
+        <input type="text" id="usingname" name="usingname" placeholder="ion_popescu"><br><br>
+
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+
+        <label for="fname">Nume:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Popescu"><br><br>
+
+        <label for="lname">Prenume:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Ion"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="tel">Numar de telefon:</label><br>
+        <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{10}" required><br>
+        <small>Format: 0712 345 678</small><br><br>
+
+        <label for="sex">Sexul: </label>
+        <select name="sex" id="sex">
+            <option value="Barbat">Barbat</option>
+            <option value="Femeie">Femeie</option>
+        </select><br><br>
+
+        <label for="sex">Mancarea preferata: </label><br>
+        <input list="favfoods" name="favfood" id="favfood">
+        <datalist id="favfoods">
+            <option value="Pizza">
+            <option value="Burger">
+            <option value="Paste">
+            <option value="Supa">
+            <option value="Friptura">
+            <option value="Sarmale">
+            <option value="Alt ceva">
+        </datalist><br><br>
+
+        <label for="color">Culoarea preferata: </label><br>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="birthday">Data nasterii: </label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        <label for="hour_birthday">Ora nasterii: </label>
+        <input type="time" id="hour_birthday" name="hour_birthday"><br><br>
+
+        <label for="points">Varsta (Intre 0 si 100):</label>
+        <input type="range" id="points" name="points" min="0" max="100"><br><br>
+
+        <label for="url">URL Personal:</label><br>
+        <input type="url" id="url" name="url"><br><br>
+
+        <label for="descriere">Descriere:</label><br>
+        <textarea id = "message" name="message" rows="10" cols="30"> </textarea><br><br>
+
+        <input type="checkbox" id="conditii" name="conditii" value="conditiiTrue">
+
+        <label for="conditii">Sunt de acord cu conditiile</label><br><br>
+        <button type="submit" id = "description">Inregistreaza</button>
+    </form>
+</article>

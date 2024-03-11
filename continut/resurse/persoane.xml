@@ -1,0 +1,67 @@
+<persoane>    
+    <persoana id = "1">    
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Tudor Vladimirescu</strada>
+            <numar>267</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <email>ion.popescu@gmail.com</email>
+    </persoana>
+    <persoana id="2">
+        <nume>Arcaleanu</nume>
+        <prenume>David</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Penes Curcanu</strada>
+            <numar>215</numar>
+            <localitate>Vaslui</localitate>
+            <judet>Vaslui</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <email>david.arcaleanu@gmail.com</email>
+    </persoana>
+    <persoana id="3">
+        <nume>Bejenariu</nume>
+        <prenume>Matei</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Traian</strada>
+            <numar>245</numar>
+            <localitate>Vaslui</localitate>
+            <judet>Vaslui</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <email>matei.bejenariu@gmail.com</email>
+    </persoana>
+    <persoana id="4">
+        <nume>Popescu</nume>
+        <prenume>Mirela</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Tudor Vladimirescu</strada>
+            <numar>19</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <email>mirela.popescu@gmail.com</email>
+    </persoana>
+    <persoana id="5">
+        <nume>Enache</nume>
+        <prenume>Cristina</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Piata Unirii</strada>
+            <numar>357</numar>
+            <localitate>Bucuresti</localitate>
+            <judet>Bucuresti</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <email>cristina.enache@gmail.com</email>
+    </persoana>
+</persoane>

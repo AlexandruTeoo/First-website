@@ -1,0 +1,50 @@
+<aside>
+    <a href="#s1", width: 30%> Sectiunea 1</a>
+    <a href="#s2", width: 30%> Sectiunea 2</a>
+    <a href="#s3", width: 30%> Sectiunea 3</a>
+</aside>
+
+<section id="s1" onload="onLoadInvat()">
+    <h2>Sectiunea 1</h2>
+    <h4>Aici gasesti informatii despre sectiunea 1</h4>
+    <div id = "current-time"></div>
+    <span id = "current-location"></span><br>
+    <span id = "current-os"></span><br>
+    <span id = "current-browser"></span><br>
+    <span id = "current-url"></span><br>  
+</section>      
+
+<section id="s2">
+    <h2>Sectiunea 2</h2>
+    <h4>Aici gasesti informatii despre sectiunea 2</h4>
+    <canvas onmousedown="onCanvasClick()" id="myCanvas" width="500" height="500"></canvas><br>
+    <label>Culoarea conturului:</label>
+    <input type="color" id="stroke-color" value="#000000"><br>
+    <label>Culoarea de umplere:</label>
+    <input type="color" id="fill-color" value="#ffffff">
+</section>
+
+<section id="s3">
+    <h2>Sectiunea 3</h2>
+    <h4>Aici gasesti informatii despre sectiunea 3</h4>
+    <table id="myTable">
+		<tr>
+			<th>Coloana 1</th>
+			<th>Coloana 2</th>
+			<th>Coloana 3</th>
+		</tr>
+		<tr>
+			<td>1, 1</td>
+			<td>1, 2</td>
+			<td>1, 3</td>
+		</tr>
+		<tr>
+			<td>2, 1</td>
+			<td>2, 2</td>
+			<td>2, 3</td>
+		</tr>
+	</table>
+
+	<button onclick="addRow()">Add Row</button>
+	<button onclick="addColumn()">Add Column</button>
+</section>

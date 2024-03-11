@@ -1,0 +1,32 @@
+<label for="nume">Nume: </label>
+    <select  onchange="onChangeSelect()" name="nume" id="nume">
+        <option value="" selected disabled hidden>Alege Produs</option>
+        <option value="Valorant Points">Valorant Points</option>
+        <option value="Radianite Points">Radianite Points</option>
+    </select><br><br>
+
+<label for="cantitate">Cantitate: </label>
+<select class = "points" name="cantitate" id="cantitate-valorant-points">
+    <option value="475">475 VP</option>
+    <option value="1000">1000 VP</option>
+    <option value="2050">2050 VP</option>
+    <option value="3650">3650 VP</option>
+    <option value="5350">5350 VP</option>
+    <option value="11000">11000 VP</option>
+</select>
+
+<select class = "points" name="cantitate" id="cantitate-radianite-points">
+    <option value="20 R">20 R</option>
+    <option value="40 R">40 R</option>
+    <option value="80 R">80 R</option>
+</select><br>
+
+<button id="adauga" onclick="onAdauga()">Adauga</button>
+
+<table id="tabela-produse">
+    <tr>
+        <th>Nume Produs</th>
+        <th>Cantitate</th>
+        <th>Numar Produse selectate</th>
+    </tr>
+</table>

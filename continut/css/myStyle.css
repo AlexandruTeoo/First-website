@@ -1,0 +1,94 @@
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    background-color: #fa4454;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #fa4454;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    width: 100%;
+    display: flex;
+    background-color: #ccc;
+    /*height: 300px;  only for demonstration, should be removed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: auto;
+  }
+
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: rgb(126, 10, 14);
+    transform: scale(1.2);
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+    /*height: 300px;  only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #364966;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(209, 72, 72);
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.points{
+  display: none;
+}
